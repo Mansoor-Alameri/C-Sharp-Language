@@ -1,0 +1,169 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Mansour Alameri\\source\\repos\\CarRentalSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F0079E03-D8BB-40BC-9731-29D01F32107D}|Car Rental System New2\\Car Rental System New2.csproj|c:\\users\\mansour alameri\\source\\repos\\carrentalsystem\\car rental system new2\\baseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0079E03-D8BB-40BC-9731-29D01F32107D}|Car Rental System New2\\Car Rental System New2.csproj|solutionrelative:car rental system new2\\baseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0079E03-D8BB-40BC-9731-29D01F32107D}|Car Rental System New2\\Car Rental System New2.csproj|c:\\users\\mansour alameri\\source\\repos\\carrentalsystem\\car rental system new2\\baseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F0079E03-D8BB-40BC-9731-29D01F32107D}|Car Rental System New2\\Car Rental System New2.csproj|solutionrelative:car rental system new2\\baseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB1B89BF-51E4-4EC5-8DEB-35C461171041}|CarRentalSystemNew\\CarRentalSystemNew.csproj|C:\\Users\\Mansour Alameri\\source\\repos\\CarRentalSystem\\carrentalsystemnew\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB1B89BF-51E4-4EC5-8DEB-35C461171041}|CarRentalSystemNew\\CarRentalSystemNew.csproj|solutionrelative:carrentalsystemnew\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB1B89BF-51E4-4EC5-8DEB-35C461171041}|CarRentalSystemNew\\CarRentalSystemNew.csproj|C:\\Users\\Mansour Alameri\\source\\repos\\CarRentalSystem\\carrentalsystemnew\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB1B89BF-51E4-4EC5-8DEB-35C461171041}|CarRentalSystemNew\\CarRentalSystemNew.csproj|solutionrelative:carrentalsystemnew\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB1B89BF-51E4-4EC5-8DEB-35C461171041}|CarRentalSystemNew\\CarRentalSystemNew.csproj|c:\\users\\mansour alameri\\source\\repos\\carrentalsystem\\carrentalsystemnew\\mainscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FB1B89BF-51E4-4EC5-8DEB-35C461171041}|CarRentalSystemNew\\CarRentalSystemNew.csproj|solutionrelative:carrentalsystemnew\\mainscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB1B89BF-51E4-4EC5-8DEB-35C461171041}|CarRentalSystemNew\\CarRentalSystemNew.csproj|c:\\users\\mansour alameri\\source\\repos\\carrentalsystem\\carrentalsystemnew\\mainscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB1B89BF-51E4-4EC5-8DEB-35C461171041}|CarRentalSystemNew\\CarRentalSystemNew.csproj|solutionrelative:carrentalsystemnew\\mainscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB1B89BF-51E4-4EC5-8DEB-35C461171041}|CarRentalSystemNew\\CarRentalSystemNew.csproj|C:\\Users\\Mansour Alameri\\source\\repos\\CarRentalSystem\\carrentalsystemnew\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB1B89BF-51E4-4EC5-8DEB-35C461171041}|CarRentalSystemNew\\CarRentalSystemNew.csproj|solutionrelative:carrentalsystemnew\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB1B89BF-51E4-4EC5-8DEB-35C461171041}|CarRentalSystemNew\\CarRentalSystemNew.csproj|c:\\users\\mansour alameri\\source\\repos\\carrentalsystem\\carrentalsystemnew\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FB1B89BF-51E4-4EC5-8DEB-35C461171041}|CarRentalSystemNew\\CarRentalSystemNew.csproj|solutionrelative:carrentalsystemnew\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB1B89BF-51E4-4EC5-8DEB-35C461171041}|CarRentalSystemNew\\CarRentalSystemNew.csproj|C:\\Users\\Mansour Alameri\\source\\repos\\CarRentalSystem\\carrentalsystemnew\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FB1B89BF-51E4-4EC5-8DEB-35C461171041}|CarRentalSystemNew\\CarRentalSystemNew.csproj|solutionrelative:carrentalsystemnew\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BaseForm.cs",
+              "DocumentMoniker": "C:\\Users\\Mansour Alameri\\source\\repos\\CarRentalSystem\\Car Rental System New2\\BaseForm.cs",
+              "RelativeDocumentMoniker": "Car Rental System New2\\BaseForm.cs",
+              "ToolTip": "C:\\Users\\Mansour Alameri\\source\\repos\\CarRentalSystem\\Car Rental System New2\\BaseForm.cs*",
+              "RelativeToolTip": "Car Rental System New2\\BaseForm.cs*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T13:56:16.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BaseForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Mansour Alameri\\source\\repos\\CarRentalSystem\\Car Rental System New2\\BaseForm.cs",
+              "RelativeDocumentMoniker": "Car Rental System New2\\BaseForm.cs",
+              "ToolTip": "C:\\Users\\Mansour Alameri\\source\\repos\\CarRentalSystem\\Car Rental System New2\\BaseForm.cs [Design]*",
+              "RelativeToolTip": "Car Rental System New2\\BaseForm.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T13:51:28.692Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainScreen.cs",
+              "DocumentMoniker": "C:\\Users\\Mansour Alameri\\source\\repos\\CarRentalSystem\\CarRentalSystemNew\\MainScreen.cs",
+              "RelativeDocumentMoniker": "CarRentalSystemNew\\MainScreen.cs",
+              "ToolTip": "C:\\Users\\Mansour Alameri\\source\\repos\\CarRentalSystem\\CarRentalSystemNew\\MainScreen.cs",
+              "RelativeToolTip": "CarRentalSystemNew\\MainScreen.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAADgvw4AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T13:35:52.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainScreen.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Mansour Alameri\\source\\repos\\CarRentalSystem\\CarRentalSystemNew\\MainScreen.cs",
+              "RelativeDocumentMoniker": "CarRentalSystemNew\\MainScreen.cs",
+              "ToolTip": "C:\\Users\\Mansour Alameri\\source\\repos\\CarRentalSystem\\CarRentalSystemNew\\MainScreen.cs [Design]",
+              "RelativeToolTip": "CarRentalSystemNew\\MainScreen.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T13:35:49.898Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "C:\\Users\\Mansour Alameri\\source\\repos\\CarRentalSystem\\CarRentalSystemNew\\LoginForm.cs",
+              "RelativeDocumentMoniker": "CarRentalSystemNew\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\Mansour Alameri\\source\\repos\\CarRentalSystem\\CarRentalSystemNew\\LoginForm.cs",
+              "RelativeToolTip": "CarRentalSystemNew\\LoginForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T16:38:56.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Mansour Alameri\\source\\repos\\CarRentalSystem\\CarRentalSystemNew\\Program.cs",
+              "RelativeDocumentMoniker": "CarRentalSystemNew\\Program.cs",
+              "ToolTip": "C:\\Users\\Mansour Alameri\\source\\repos\\CarRentalSystem\\CarRentalSystemNew\\Program.cs",
+              "RelativeToolTip": "CarRentalSystemNew\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T16:32:01.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Mansour Alameri\\source\\repos\\CarRentalSystem\\CarRentalSystemNew\\LoginForm.cs",
+              "RelativeDocumentMoniker": "CarRentalSystemNew\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\Mansour Alameri\\source\\repos\\CarRentalSystem\\CarRentalSystemNew\\LoginForm.cs [Design]",
+              "RelativeToolTip": "CarRentalSystemNew\\LoginForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T16:38:48.617Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\Mansour Alameri\\source\\repos\\CarRentalSystem\\CarRentalSystemNew\\MainForm.cs",
+              "RelativeDocumentMoniker": "CarRentalSystemNew\\MainForm.cs",
+              "ToolTip": "C:\\Users\\Mansour Alameri\\source\\repos\\CarRentalSystem\\CarRentalSystemNew\\MainForm.cs*",
+              "RelativeToolTip": "CarRentalSystemNew\\MainForm.cs*",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAmwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T16:21:23.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Mansour Alameri\\source\\repos\\CarRentalSystem\\CarRentalSystemNew\\MainForm.cs",
+              "RelativeDocumentMoniker": "CarRentalSystemNew\\MainForm.cs",
+              "ToolTip": "C:\\Users\\Mansour Alameri\\source\\repos\\CarRentalSystem\\CarRentalSystemNew\\MainForm.cs [Design]*",
+              "RelativeToolTip": "CarRentalSystemNew\\MainForm.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T16:21:19.981Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

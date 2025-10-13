@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "86597ee1-874e-4f0a-ab29-78dfe577332b": {
+      "ProjectGuid": "86597ee1-874e-4f0a-ab29-78dfe577332b",
+      "DisplayName": "CarRentalSystem",
+      "ColorIndex": 0
+    },
+    "77b95a17-0f59-4819-aa11-dd8af13f915c": {
+      "ProjectGuid": "77b95a17-0f59-4819-aa11-dd8af13f915c",
+      "DisplayName": "WindowsFormsApp1",
+      "ColorIndex": 1
+    },
+    "fb1b89bf-51e4-4ec5-8deb-35c461171041": {
+      "ProjectGuid": "fb1b89bf-51e4-4ec5-8deb-35c461171041",
+      "DisplayName": "CarRentalSystemNew",
+      "ColorIndex": 2
+    },
+    "edd37123-40a9-4452-bec3-d2f2cb002264": {
+      "ProjectGuid": "edd37123-40a9-4452-bec3-d2f2cb002264",
+      "DisplayName": "Test",
+      "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 4
+}
