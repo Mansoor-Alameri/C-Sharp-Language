@@ -1,0 +1,159 @@
+﻿<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="utf-8">
+    <title>مساعدة شاشة إدارة / تعديل عميل</title>
+
+    <style>
+        body {
+            font-family: Arial, Tahoma, sans-serif;
+            direction: rtl;
+            background-color: #f9f9f9;
+            padding: 20px;
+            color: #333;
+        }
+
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 5px;
+        }
+
+        h2 {
+            color: #34495e;
+            margin-top: 25px;
+        }
+
+        h3 {
+            color: #34495e;
+            margin-top: 15px;
+        }
+
+        ul {
+            line-height: 1.8;
+        }
+
+        .note {
+            background-color: #fff3cd;
+            border-right: 5px solid #f1c40f;
+            padding: 10px;
+            margin-top: 15px;
+        }
+
+        .en {
+            direction: ltr;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+
+    <section>
+        <h1 id="Main">مساعدة شاشة إدارة / تعديل عميل</h1>
+
+        <p>
+            هذه الشاشة مخصصة لتعديل بيانات عميل موجود في النظام،
+            حيث يمكن تعديل معظم البيانات الأساسية للعميل مثل الاسم، العنوان، رقم الهاتف،
+            نوع العميل، البطاقة التعريفية، ورخصة القيادة، وغيرها.
+        </p>
+
+        <hr>
+
+        <h2>أولاً: الحقول الأساسية</h2>
+        <ul>
+            <li><strong>ID العميل:</strong> للقراءة فقط، لا يمكن تغييره.</li>
+            <li><strong>الاسم:</strong> يمكن تعديله.</li>
+            <li><strong>رخصة القيادة:</strong> يمكن تعديل الرقم.</li>
+            <li><strong>العنوان:</strong> يمكن تعديله.</li>
+            <li><strong>نوع الضمانة:</strong> غير قابل للتعديل في حالات معينة عدا ذلك يمكن تعديله، تظهر "بدون ضمانة" إذا لم يكن هناك ضمانة.</li>
+            <li><strong>نوع العميل:</strong> يمكن تغييره.</li>
+            <li><strong>نوع البطاقة التعريفية:</strong> يمكن تغييره.</li>
+            <li><strong>قيمة البطاقة التعريفية:</strong> يمكن تعديلها.</li>
+            <li><strong>الجنس:</strong> يمكن تغييره.</li>
+            <li><strong>رقم الهاتف الأول:</strong> إجباري.</li>
+            <li><strong>رقم الهاتف الثاني:</strong> اختياري.</li>
+            <li><strong>تاريخ الميلاد:</strong> السنة فقط.</li>
+        </ul>
+
+        <div class="note">
+            ملاحظة: إذا كان لدى العميل <strong>مخالفات غير مدفوعة</strong> أو <strong>عملية إيجار جارية</strong>،
+            قد يتم تقييد بعض الحقول وعدم السماح بتعديلها.
+        </div>
+
+        <hr>
+
+        <h2>ثانياً: الأزرار</h2>
+        <ul>
+            <li><strong>زر الرجوع:</strong> للعودة إلى شاشة إدارة العملاء.</li>
+            <li><strong>زر الحفظ:</strong> لحفظ التعديلات على بيانات العميل.</li>
+            <li><strong>زر المساعدة:</strong> لعرض هذه الصفحة التعليمية.</li>
+            <li><strong>زر التقارير:</strong> يعرض جميع التقارير المتعلقة بالعميل وبياناته.</li>
+        </ul>
+
+        <hr>
+
+        <h2>ملاحظات عامة</h2>
+        <ul>
+            <li>تأكد من إدخال البيانات الصحيحة قبل الحفظ.</li>
+            <li>رقم الهاتف الأول يجب أن يكون موجوداً.</li>
+            <li>لا يمكن تعديل الضمانة إذا كان العميل لديه مخالفات غير مدفوعة أو عملية ايجار جارية.</li>
+        </ul>
+    </section>
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="en" lang="en">
+        <h1 id="New_Main">Manage / Edit Client Screen Help</h1>
+
+        <p>
+            This screen is designed to edit an existing client's data in the system,
+            where most basic fields can be modified such as name, address, phone number,
+            client type, ID type, driving license, and more.
+        </p>
+
+        <hr>
+
+        <h2>First: Basic Fields</h2>
+        <ul>
+            <li><strong>Client ID:</strong> Read-only, cannot be changed.</li>
+            <li><strong>Full Name:</strong> Can be edited.</li>
+            <li><strong>Driving License:</strong> Can be modified.</li>
+            <li><strong>Address:</strong> Editable.</li>
+            <li><strong>Guarantee Type:</strong> Not editable in some Cases Otherwise, it can be editable; shows "No Guarantee" if none.</li>
+            <li><strong>Client Type:</strong> Can be changed.</li>
+            <li><strong>ID Type:</strong> Can be changed.</li>
+            <li><strong>ID Value:</strong> Editable.</li>
+            <li><strong>Gender:</strong> Can be changed.</li>
+            <li><strong>Phone 1:</strong> Required.</li>
+            <li><strong>Phone 2:</strong> Optional.</li>
+            <li><strong>Birth Year:</strong> Year only.</li>
+        </ul>
+
+        <div class="note">
+            Note: If the client has <strong>unpaid fines</strong> or <strong>an ongoing rental</strong>,
+            some fields may be restricted and cannot be edited.
+        </div>
+
+        <hr>
+
+        <h2>Second: Buttons</h2>
+        <ul>
+            <li><strong>Back Button:</strong> Returns to the customer management screen.</li>
+            <li><strong>Save Button:</strong> Saves the changes made to the client's data.</li>
+            <li><strong>Help Button:</strong> Displays this help page.</li>
+            <li><strong>Reports Button:</strong> Displays all reports related to the client and their data.</li>
+        </ul>
+
+        <hr>
+
+        <h2>General Notes</h2>
+        <ul>
+            <li>Ensure that all data is correct before saving.</li>
+            <li>Phone 1 must be filled.</li>
+            <li>Guarantee type cannot be modified if the client has no Paymented Violations or has a Rental Ongoing.</li>
+        </ul>
+    </div>
+
+</body>
+</html>

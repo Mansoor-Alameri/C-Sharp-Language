@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="utf-8">
+    <title>مساعدة شاشة إضافة إيجار</title>
+
+    <style>
+        body {
+            font-family: Arial, Tahoma, sans-serif;
+            direction: rtl;
+            background-color: #f9f9f9;
+            padding: 20px;
+            color: #333;
+        }
+
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 5px;
+        }
+
+        h2 {
+            color: #34495e;
+            margin-top: 25px;
+        }
+
+        ul {
+            line-height: 1.8;
+        }
+
+        .note {
+            background-color: #fff3cd;
+            border-right: 5px solid #f1c40f;
+            padding: 10px;
+            margin-top: 15px;
+        }
+
+        .en {
+            direction: ltr;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+
+<section>
+    <h1 id="Main">مساعدة شاشة إضافة إيجار</h1>
+
+    <p>
+        هذه الشاشة مخصصة لإضافة إيجار جديد للنظام،
+        حيث يمكن إدخال بيانات الإيجار الأساسية مثل العميل، السيارة، رقم العقد، الخصم،
+        سعر الإيجار اليومي، السعر الكلي، تاريخ البداية والنهاية، وعدد الأيام.
+    </p>
+
+    <hr>
+
+    <h2>أولاً: الحقول الأساسية</h2>
+    <ul>
+        <li><strong>المعرف:</strong> للقراءة فقط، يتم توليده من قاعدة البيانات.</li>
+        <li><strong>العميل:</strong> اختيار العميل من قاعدة البيانات.</li>
+        <li><strong>السيارة:</strong> اختيار السيارة المتاحة.</li>
+        <li><strong>رقم العقد الموقع من العميل:</strong> الرقم الخاص بالعقد.</li>
+        <li><strong>الخصم:</strong> قيمة الخصم على الإيجار.</li>
+        <li><strong>سعر الإيجار اليومي:</strong> سعر إيجار السيارة لليوم الواحد.</li>
+        <li><strong>السعر الكلي:</strong> مجموع السعر بعد الحساب.</li>
+        <li><strong>تاريخ بداية الإيجار:</strong> اليوم الذي يبدأ فيه الإيجار.</li>
+        <li><strong>تاريخ نهاية الإيجار:</strong> اليوم الذي ينتهي فيه الإيجار.</li>
+        <li><strong>عدد الأيام:</strong> يتم حسابه من تاريخ البداية والنهاية.</li>
+    </ul>
+
+    <hr>
+
+    <h2>ثانياً: الأزرار</h2>
+    <ul>
+        <li><strong>زر حفظ:</strong> لحفظ بيانات الإيجار المدخلة.</li>
+        <li><strong>زر المساعدة:</strong> لعرض هذه الصفحة التعليمية.</li>
+        <li><strong>زر الرجوع:</strong> للعودة إلى شاشة إدارة الإيجارات.</li>
+    </ul>
+
+    <hr>
+
+    <h2>ملاحظات عامة</h2>
+    <ul>
+        <li>تأكد من إدخال جميع البيانات المطلوبة قبل الحفظ.</li>
+        <li>المعرف يتم توليده تلقائياً ولا يمكن تغييره.</li>
+        <li>السعر الكلي وعدد الأيام يتم حسابهما تلقائياً.</li>
+    </ul>
+</section>
+
+<div class="en" lang="en">
+    <h1 id="New_Main">Add Rental Screen Help</h1>
+
+    <p>
+        This screen is used to add a new rental to the system,
+        where you can enter the rental's basic information such as client, car, contract number, discount,
+        daily rental price, total price, start and end dates, and number of days.
+    </p>
+
+    <hr>
+
+    <h2>First: Basic Fields</h2>
+    <ul>
+        <li><strong>Rental ID:</strong> Read-only, auto-generated from the database.</li>
+        <li><strong>Client:</strong> Select the client from the database.</li>
+        <li><strong>Car:</strong> Select the available car.</li>
+        <li><strong>Contract Number:</strong> Number signed by the client.</li>
+        <li><strong>Discount:</strong> Discount applied to the rental.</li>
+        <li><strong>Daily Rental Price:</strong> Rental price per day.</li>
+        <li><strong>Total Price:</strong> Total rental cost after calculation.</li>
+        <li><strong>Start Date:</strong> Rental start date.</li>
+        <li><strong>End Date:</strong> Rental end date.</li>
+        <li><strong>Number of Days:</strong> Calculated from start and end dates.</li>
+    </ul>
+
+    <hr>
+
+    <h2>Second: Buttons</h2>
+    <ul>
+        <li><strong>Save Button:</strong> Saves the entered rental data.</li>
+        <li><strong>Help Button:</strong> Displays this help page.</li>
+        <li><strong>Back Button:</strong> Returns to the rental management screen.</li>
+    </ul>
+
+    <hr>
+
+    <h2>General Notes</h2>
+    <ul>
+        <li>Ensure all required data is entered before saving.</li>
+        <li>Rental ID is auto-generated and cannot be changed.</li>
+        <li>Total price and number of days are calculated automatically.</li>
+    </ul>
+</div>
+
+</body>
+</html>

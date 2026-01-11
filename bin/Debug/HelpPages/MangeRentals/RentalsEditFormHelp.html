@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="utf-8">
+    <title>مساعدة شاشة تعديل إيجار</title>
+
+    <style>
+        body {
+            font-family: Arial, Tahoma, sans-serif;
+            direction: rtl;
+            background-color: #f9f9f9;
+            padding: 20px;
+            color: #333;
+        }
+
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 5px;
+        }
+
+        h2 {
+            color: #34495e;
+            margin-top: 25px;
+        }
+
+        ul {
+            line-height: 1.8;
+        }
+
+        .note {
+            background-color: #fff3cd;
+            border-right: 5px solid #f1c40f;
+            padding: 10px;
+            margin-top: 15px;
+        }
+
+        .en {
+            direction: ltr;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+
+<section>
+    <h1 id="Main">مساعدة شاشة تعديل إيجار</h1>
+
+    <p>
+        هذه الشاشة مخصصة لتعديل بيانات إيجار موجود، 
+        ويمكن تعديل جميع الحقول فقط إذا كان الإيجار لم يتم دفع قيمته بعد.
+        الإيجارات المدفوعة لا يمكن تعديلها.
+    </p>
+
+    <hr>
+
+    <h2>أولاً: الحقول الأساسية</h2>
+    <ul>
+        <li><strong>المعرف:</strong> للقراءة فقط، يتم جلبه من قاعدة البيانات.</li>
+        <li><strong>العميل:</strong> يمكن تعديله.</li>
+        <li><strong>السيارة:</strong> يمكن تعديلها إذا كان الإيجار غير مدفوع.</li>
+        <li><strong>رقم العقد الموقع من العميل:</strong> يمكن تعديله.</li>
+        <li><strong>الخصم:</strong> يمكن تعديله.</li>
+        <li><strong>سعر الإيجار اليومي:</strong> يمكن تعديله.</li>
+        <li><strong>السعر الكلي:</strong> يتم حسابه تلقائياً بعد أي تعديل.</li>
+        <li><strong>تاريخ بداية الإيجار:</strong> يمكن تعديله.</li>
+        <li><strong>تاريخ نهاية الإيجار:</strong> يمكن تعديله.</li>
+        <li><strong>عدد الأيام:</strong> يتم تحديثه تلقائياً بعد تعديل التواريخ.</li>
+        <li><strong>الملاحظات:</strong> يمكن إضافة أي ملاحظات تتعلق بالإيجار.</li>
+    </ul>
+
+    <div class="note">
+        ملاحظة: لا يمكن تعديل الإيجار إذا كان قد تم دفع قيمته بالفعل.
+        زر الحذف متاح فقط للإيجارات غير المدفوعة.
+    </div>
+
+    <hr>
+
+    <h2>ثانياً: الأزرار</h2>
+    <ul>
+        <li><strong>زر حفظ:</strong> لحفظ التعديلات على الإيجار.</li>
+        <li><strong>زر المساعدة:</strong> لعرض هذه الصفحة التعليمية.</li>
+        <li><strong>زر الرجوع:</strong> للعودة إلى شاشة إدارة الإيجارات.</li>
+        <li><strong>زر الحذف:</strong> لحذف الإيجار إذا لم يتم دفع قيمته.</li>
+    </ul>
+
+    <hr>
+
+    <h2>ملاحظات عامة</h2>
+    <ul>
+        <li>تأكد من أن الإيجار غير مدفوع قبل تعديل أي بيانات أو الحذف.</li>
+        <li>المعرف يتم جلبه من قاعدة البيانات ولا يمكن تغييره.</li>
+        <li>السعر الكلي وعدد الأيام يتم حسابهما تلقائياً بعد تعديل التواريخ أو السعر اليومي.</li>
+    </ul>
+</section>
+
+<div class="en" lang="en">
+    <h1 id="New_Main">Edit Rental Screen Help</h1>
+
+    <p>
+        This screen is used to edit an existing rental.
+        All fields can be modified only if the rental has not been paid yet.
+        Paid rentals cannot be edited.
+    </p>
+
+    <hr>
+
+    <h2>First: Basic Fields</h2>
+    <ul>
+        <li><strong>Rental ID:</strong> Read-only, fetched from the database.</li>
+        <li><strong>Client:</strong> Can be edited.</li>
+        <li><strong>Car:</strong> Can be changed if the rental is unpaid.</li>
+        <li><strong>Contract Number:</strong> Can be modified.</li>
+        <li><strong>Discount:</strong> Can be edited.</li>
+        <li><strong>Daily Rental Price:</strong> Can be modified.</li>
+        <li><strong>Total Price:</strong> Automatically calculated after any changes.</li>
+        <li><strong>Start Date:</strong> Editable.</li>
+        <li><strong>End Date:</strong> Editable.</li>
+        <li><strong>Number of Days:</strong> Automatically updated after modifying dates.</li>
+        <li><strong>Notes:</strong> Any notes regarding the rental can be added.</li>
+    </ul>
+
+    <div class="note">
+        Note: Rentals that have already been paid cannot be edited.
+        The delete button is available only for unpaid rentals.
+    </div>
+
+    <hr>
+
+    <h2>Second: Buttons</h2>
+    <ul>
+        <li><strong>Save Button:</strong> Saves the changes to the rental.</li>
+        <li><strong>Help Button:</strong> Displays this help page.</li>
+        <li><strong>Back Button:</strong> Returns to the rental management screen.</li>
+        <li><strong>Delete Button:</strong> Deletes the rental if it has not been paid.</li>
+    </ul>
+
+    <hr>
+
+    <h2>General Notes</h2>
+    <ul>
+        <li>Ensure the rental is unpaid before editing or deleting.</li>
+        <li>Rental ID is fetched from the database and cannot be changed.</li>
+        <li>Total price and number of days are automatically calculated after modifying dates or daily price.</li>
+    </ul>
+</div>
+
+</body>
+</html>

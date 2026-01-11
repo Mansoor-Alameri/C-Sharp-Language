@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ReportsDateSet" targetNamespace="http://tempuri.org/ReportsDateSet.xsd" xmlns:mstns="http://tempuri.org/ReportsDateSet.xsd" xmlns="http://tempuri.org/ReportsDateSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="Car_Rental_System_New_VirsionConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="Car_Rental_System_New_VirsionConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Car_Rental_System_New_Virsion.Properties.Settings.GlobalReference.Default.Car_Rental_System_New_VirsionConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="V_AllRentalsTableAdapter" GeneratorDataComponentClassName="V_AllRentalsTableAdapter" Name="V_AllRentals" UserDataComponentName="V_AllRentalsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Car_Rental_System_New_VirsionConnectionString (Settings)" DbObjectName="Car_Rental_System_New_Virsion.dbo.V_AllRentals" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT ID, Customer, Car, [Start Date], [End Date], Discount, [Rental Price], [Contract Number], Notes, Employee, Car_ID, Customer_ID FROM dbo.V_AllRentals</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ID" DataSetColumn="ID" />
+              <Mapping SourceColumn="Customer" DataSetColumn="Customer" />
+              <Mapping SourceColumn="Car" DataSetColumn="Car" />
+              <Mapping SourceColumn="Start Date" DataSetColumn="Start Date" />
+              <Mapping SourceColumn="End Date" DataSetColumn="End Date" />
+              <Mapping SourceColumn="Discount" DataSetColumn="Discount" />
+              <Mapping SourceColumn="Rental Price" DataSetColumn="Rental Price" />
+              <Mapping SourceColumn="Contract Number" DataSetColumn="Contract Number" />
+              <Mapping SourceColumn="Notes" DataSetColumn="Notes" />
+              <Mapping SourceColumn="Employee" DataSetColumn="Employee" />
+              <Mapping SourceColumn="Car_ID" DataSetColumn="Car_ID" />
+              <Mapping SourceColumn="Customer_ID" DataSetColumn="Customer_ID" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="V_AllPaymentsTableAdapter" GeneratorDataComponentClassName="V_AllPaymentsTableAdapter" Name="V_AllPayments" UserDataComponentName="V_AllPaymentsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Car_Rental_System_New_VirsionConnectionString (Settings)" DbObjectName="Car_Rental_System_New_Virsion.dbo.V_AllPayments" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT ID, Type, [Payment Method], Date, Discount, [Total Price], [Rental ID], [Date Of Record], Employee, Customer_ID, Car_ID FROM dbo.V_AllPayments</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ID" DataSetColumn="ID" />
+              <Mapping SourceColumn="Type" DataSetColumn="Type" />
+              <Mapping SourceColumn="Payment Method" DataSetColumn="Payment Method" />
+              <Mapping SourceColumn="Date" DataSetColumn="Date" />
+              <Mapping SourceColumn="Discount" DataSetColumn="Discount" />
+              <Mapping SourceColumn="Total Price" DataSetColumn="Total Price" />
+              <Mapping SourceColumn="Rental ID" DataSetColumn="Rental ID" />
+              <Mapping SourceColumn="Date Of Record" DataSetColumn="Date Of Record" />
+              <Mapping SourceColumn="Employee" DataSetColumn="Employee" />
+              <Mapping SourceColumn="Customer_ID" DataSetColumn="Customer_ID" />
+              <Mapping SourceColumn="Car_ID" DataSetColumn="Car_ID" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="V_AllViolationsTableAdapter" GeneratorDataComponentClassName="V_AllViolationsTableAdapter" Name="V_AllViolations" UserDataComponentName="V_AllViolationsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Car_Rental_System_New_VirsionConnectionString (Settings)" DbObjectName="Car_Rental_System_New_Virsion.dbo.V_AllViolations" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT ID, Violation, [Rental ID], Cost, Car_ID FROM dbo.V_AllViolations</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ID" DataSetColumn="ID" />
+              <Mapping SourceColumn="Violation" DataSetColumn="Violation" />
+              <Mapping SourceColumn="Rental ID" DataSetColumn="Rental ID" />
+              <Mapping SourceColumn="Cost" DataSetColumn="Cost" />
+              <Mapping SourceColumn="Car_ID" DataSetColumn="Car_ID" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ReportsDateSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ReportsDateSet" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="ReportsDateSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="V_AllRentals" msprop:Generator_RowEvHandlerName="V_AllRentalsRowChangeEventHandler" msprop:Generator_RowDeletedName="V_AllRentalsRowDeleted" msprop:Generator_RowDeletingName="V_AllRentalsRowDeleting" msprop:Generator_RowEvArgName="V_AllRentalsRowChangeEvent" msprop:Generator_TablePropName="V_AllRentals" msprop:Generator_RowChangedName="V_AllRentalsRowChanged" msprop:Generator_UserTableName="V_AllRentals" msprop:Generator_RowChangingName="V_AllRentalsRowChanging" msprop:Generator_RowClassName="V_AllRentalsRow" msprop:Generator_TableClassName="V_AllRentalsDataTable" msprop:Generator_TableVarName="tableV_AllRentals">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnVarNameInTable="columnID" type="xs:int" />
+              <xs:element name="Customer" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInTable="CustomerColumn" msprop:Generator_ColumnPropNameInRow="Customer" msprop:Generator_UserColumnName="Customer" msprop:Generator_ColumnVarNameInTable="columnCustomer" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="101" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Car" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInTable="CarColumn" msprop:Generator_ColumnPropNameInRow="Car" msprop:Generator_UserColumnName="Car" msprop:Generator_ColumnVarNameInTable="columnCar" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="154" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Start_x0020_Date" msprop:Generator_ColumnPropNameInTable="Start_DateColumn" msprop:Generator_ColumnPropNameInRow="Start_Date" msprop:Generator_UserColumnName="Start Date" msprop:Generator_ColumnVarNameInTable="columnStart_Date" type="xs:dateTime" />
+              <xs:element name="End_x0020_Date" msprop:Generator_ColumnPropNameInTable="End_DateColumn" msprop:Generator_ColumnPropNameInRow="End_Date" msprop:Generator_UserColumnName="End Date" msprop:Generator_ColumnVarNameInTable="columnEnd_Date" type="xs:dateTime" />
+              <xs:element name="Discount" msprop:Generator_ColumnPropNameInTable="DiscountColumn" msprop:Generator_ColumnPropNameInRow="Discount" msprop:Generator_UserColumnName="Discount" msprop:Generator_ColumnVarNameInTable="columnDiscount" type="xs:decimal" />
+              <xs:element name="Rental_x0020_Price" msprop:Generator_ColumnPropNameInTable="Rental_PriceColumn" msprop:Generator_ColumnPropNameInRow="Rental_Price" msprop:Generator_UserColumnName="Rental Price" msprop:Generator_ColumnVarNameInTable="columnRental_Price" type="xs:decimal" />
+              <xs:element name="Contract_x0020_Number" msprop:Generator_ColumnPropNameInTable="Contract_NumberColumn" msprop:Generator_ColumnPropNameInRow="Contract_Number" msprop:Generator_UserColumnName="Contract Number" msprop:Generator_ColumnVarNameInTable="columnContract_Number" type="xs:int" />
+              <xs:element name="Notes" msprop:Generator_ColumnPropNameInTable="NotesColumn" msprop:Generator_ColumnPropNameInRow="Notes" msprop:Generator_UserColumnName="Notes" msprop:Generator_ColumnVarNameInTable="columnNotes" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Employee" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInTable="EmployeeColumn" msprop:Generator_ColumnPropNameInRow="Employee" msprop:Generator_UserColumnName="Employee" msprop:Generator_ColumnVarNameInTable="columnEmployee" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="101" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Car_ID" msprop:Generator_ColumnPropNameInTable="Car_IDColumn" msprop:Generator_ColumnPropNameInRow="Car_ID" msprop:Generator_UserColumnName="Car_ID" msprop:Generator_ColumnVarNameInTable="columnCar_ID" type="xs:int" />
+              <xs:element name="Customer_ID" msprop:Generator_ColumnPropNameInTable="Customer_IDColumn" msprop:Generator_ColumnPropNameInRow="Customer_ID" msprop:Generator_UserColumnName="Customer_ID" msprop:Generator_ColumnVarNameInTable="columnCustomer_ID" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="V_AllPayments" msprop:Generator_RowClassName="V_AllPaymentsRow" msprop:Generator_RowEvHandlerName="V_AllPaymentsRowChangeEventHandler" msprop:Generator_RowDeletedName="V_AllPaymentsRowDeleted" msprop:Generator_RowDeletingName="V_AllPaymentsRowDeleting" msprop:Generator_RowEvArgName="V_AllPaymentsRowChangeEvent" msprop:Generator_TablePropName="V_AllPayments" msprop:Generator_RowChangedName="V_AllPaymentsRowChanged" msprop:Generator_UserTableName="V_AllPayments" msprop:Generator_RowChangingName="V_AllPaymentsRowChanging" msprop:Generator_TableClassName="V_AllPaymentsDataTable" msprop:Generator_TableVarName="tableV_AllPayments">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnVarNameInTable="columnID" type="xs:int" />
+              <xs:element name="Type" msprop:Generator_UserColumnName="Type" msprop:Generator_ColumnPropNameInTable="TypeColumn" msprop:Generator_ColumnPropNameInRow="Type" msprop:Generator_ColumnVarNameInTable="columnType">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Payment_x0020_Method" msprop:Generator_UserColumnName="Payment Method" msprop:Generator_ColumnPropNameInTable="Payment_MethodColumn" msprop:Generator_ColumnPropNameInRow="Payment_Method" msprop:Generator_ColumnVarNameInTable="columnPayment_Method">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Date" msprop:Generator_UserColumnName="Date" msprop:Generator_ColumnPropNameInTable="DateColumn" msprop:Generator_ColumnPropNameInRow="Date" msprop:Generator_ColumnVarNameInTable="columnDate" type="xs:dateTime" />
+              <xs:element name="Discount" msprop:Generator_UserColumnName="Discount" msprop:Generator_ColumnPropNameInTable="DiscountColumn" msprop:Generator_ColumnPropNameInRow="Discount" msprop:Generator_ColumnVarNameInTable="columnDiscount" type="xs:decimal" />
+              <xs:element name="Total_x0020_Price" msprop:Generator_UserColumnName="Total Price" msprop:Generator_ColumnPropNameInTable="Total_PriceColumn" msprop:Generator_ColumnPropNameInRow="Total_Price" msprop:Generator_ColumnVarNameInTable="columnTotal_Price" type="xs:decimal" />
+              <xs:element name="Rental_x0020_ID" msprop:Generator_UserColumnName="Rental ID" msprop:Generator_ColumnPropNameInTable="Rental_IDColumn" msprop:Generator_ColumnPropNameInRow="Rental_ID" msprop:Generator_ColumnVarNameInTable="columnRental_ID" type="xs:int" />
+              <xs:element name="Date_x0020_Of_x0020_Record" msprop:Generator_UserColumnName="Date Of Record" msprop:Generator_ColumnPropNameInTable="Date_Of_RecordColumn" msprop:Generator_ColumnPropNameInRow="Date_Of_Record" msprop:Generator_ColumnVarNameInTable="columnDate_Of_Record" type="xs:dateTime" />
+              <xs:element name="Employee" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Employee" msprop:Generator_ColumnPropNameInTable="EmployeeColumn" msprop:Generator_ColumnPropNameInRow="Employee" msprop:Generator_ColumnVarNameInTable="columnEmployee" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="101" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Customer_ID" msprop:Generator_UserColumnName="Customer_ID" msprop:Generator_ColumnPropNameInTable="Customer_IDColumn" msprop:Generator_ColumnPropNameInRow="Customer_ID" msprop:Generator_ColumnVarNameInTable="columnCustomer_ID" type="xs:int" />
+              <xs:element name="Car_ID" msprop:Generator_UserColumnName="Car_ID" msprop:Generator_ColumnPropNameInTable="Car_IDColumn" msprop:Generator_ColumnPropNameInRow="Car_ID" msprop:Generator_ColumnVarNameInTable="columnCar_ID" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="V_AllViolations" msprop:Generator_RowEvHandlerName="V_AllViolationsRowChangeEventHandler" msprop:Generator_RowDeletedName="V_AllViolationsRowDeleted" msprop:Generator_RowDeletingName="V_AllViolationsRowDeleting" msprop:Generator_RowEvArgName="V_AllViolationsRowChangeEvent" msprop:Generator_TablePropName="V_AllViolations" msprop:Generator_RowChangedName="V_AllViolationsRowChanged" msprop:Generator_RowChangingName="V_AllViolationsRowChanging" msprop:Generator_TableClassName="V_AllViolationsDataTable" msprop:Generator_RowClassName="V_AllViolationsRow" msprop:Generator_TableVarName="tableV_AllViolations" msprop:Generator_UserTableName="V_AllViolations">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_UserColumnName="ID" type="xs:int" />
+              <xs:element name="Violation" msprop:Generator_ColumnPropNameInRow="Violation" msprop:Generator_ColumnPropNameInTable="ViolationColumn" msprop:Generator_ColumnVarNameInTable="columnViolation" msprop:Generator_UserColumnName="Violation">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Rental_x0020_ID" msprop:Generator_ColumnPropNameInRow="Rental_ID" msprop:Generator_ColumnPropNameInTable="Rental_IDColumn" msprop:Generator_ColumnVarNameInTable="columnRental_ID" msprop:Generator_UserColumnName="Rental ID" type="xs:int" />
+              <xs:element name="Cost" msprop:Generator_ColumnPropNameInRow="Cost" msprop:Generator_ColumnPropNameInTable="CostColumn" msprop:Generator_ColumnVarNameInTable="columnCost" msprop:Generator_UserColumnName="Cost" type="xs:decimal" />
+              <xs:element name="Car_ID" msprop:Generator_ColumnPropNameInRow="Car_ID" msprop:Generator_ColumnPropNameInTable="Car_IDColumn" msprop:Generator_ColumnVarNameInTable="columnCar_ID" msprop:Generator_UserColumnName="Car_ID" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:V_AllRentals" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="V_AllViolations_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:V_AllViolations" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
